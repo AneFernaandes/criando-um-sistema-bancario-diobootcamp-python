@@ -1,0 +1,19 @@
+nome = "gUIlherME"
+
+print(nome.upper()) #deixa tudo em maiusculo#
+print(nome.lower()) #deixa tudo em minusculo#
+print(nome.title()) #deixa tudo em minusculo exceto o primeiro caractere#
+
+texto = "  Olá mundo!    "
+
+print(texto + ".")
+print(texto.strip() + ".") #retira os espaços#
+print(texto.rstrip() + ".")
+print(texto.lstrip() + ".")
+
+menu = "Python"
+
+print("####" + menu + "####") #acrescenta espaços#
+print(menu.center(14))
+print(menu.center(14, "#"))
+print("-".join(menu))
